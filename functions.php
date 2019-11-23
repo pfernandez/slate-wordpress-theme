@@ -32,8 +32,6 @@ function slate_setup() {
 
 	/* Load widgets */
 	require( get_template_directory() . '/includes/widgets/recent-widgets.php' );
-	require( get_template_directory() . '/includes/widgets/text-column.php' );
-	require( get_template_directory() . '/includes/widgets/recent-portfolio.php' );
 
 	/* Add default posts and comments RSS feed links to head */
 	add_theme_support( 'automatic-feed-links' );
