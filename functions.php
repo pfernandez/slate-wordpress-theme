@@ -164,6 +164,7 @@ function okay_page_has_nav() {
 if ( function_exists('register_sidebars') )
 
 register_sidebar( array(
+  'id'        => 'sidebar-1',
 	'name' 			=> __( 'Header Toggle Icons', 'okay' ),
 	'description' 	=> __( 'This section is for the social media icons widget provided by the Okay Toolkit.', 'okay' ),
 	'before_widget' => '<div id="%1$s" class="%2$s">',
@@ -171,6 +172,7 @@ register_sidebar( array(
 ) );
 
 register_sidebar( array(
+  'id'        => 'sidebar-2',
 	'name' 			=> __( 'Services Text Columns', 'okay' ),
 	'description' 	=> __( 'This section is for the Services section on the homepage.', 'okay' ),
 	'before_widget' => '<div id="%1$s" class="column %2$s">',
@@ -178,6 +180,7 @@ register_sidebar( array(
 ) );
 
 register_sidebar( array(
+  'id'        => 'sidebar-3',
 	'name' 			=> __( 'Testimonials', 'okay' ),
 	'description' 	=> __( 'Widgets in this area will be shown on the left side of the note area on the homepage.', 'okay' ),
 	'before_widget' => '<li id="%1$s" class="%2$s">',
@@ -185,6 +188,7 @@ register_sidebar( array(
 ) );
 
 register_sidebar( array(
+  'id'        => 'sidebar-4',
 	'name' 			=> __( 'Sidebar', 'okay' ),
 	'description' 	=> __( 'Widgets in this area will be shown on the sidebar of all pages.', 'okay' ),
 	'before_widget' => '<div id="%1$s" class="widget %2$s">',
@@ -194,6 +198,7 @@ register_sidebar( array(
 ) );
 
 register_sidebar( array(
+  'id'        => 'sidebar-5',
 	'name' 			=> __( 'Footer', 'okay' ),
 	'description' 	=> __( 'Widgets in this area will be shown own on the left side of the footer of all pages.', 'okay' ),
 	'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
